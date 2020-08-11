@@ -1,0 +1,101 @@
+@keyframes to-transparent {
+    0% { opacity: 100%; }
+    100% { opacity: 0%; }
+}
+@keyframes to-opaque {
+    0% { opacity: 0%; }
+    100% { opacity: 100%; }
+}
+
+@keyframes navbar-to-transparent {
+    0% { background-color: rgba(100, 255, 100, 255); }
+    100% { background-color: rgba(100, 255, 100, 0); }
+}
+@keyframes navbar-to-opaque {
+    0% { background-color: rgba(100, 255, 100, 0); }
+    100% { background-color: rgba(100, 255, 100, 255); }
+}
+
+@keyframes nav-btn-to-transparent {
+    0% { background-color: rgba(255, 255, 255, 255); }
+    100% { background-color: rgba(255, 255, 255, 0); }
+}
+@keyframes nav-btn-to-opaque {
+    0% { background-color: rgba(255, 255, 255, 0); }
+    100% { background-color: rgba(255, 255, 255, 255); }
+}
+
+@keyframes navbar-to-transparent {
+    0% { background-color: rgba(100, 255, 100, 255); }
+    100% { background-color: rgba(100, 255, 100, 0); }
+}
+@keyframes navbar-to-opaque {
+    0% { background-color: rgba(100, 255, 100, 0); }
+    100% { background-color: rgba(100, 255, 100, 255); }
+}
+
+
+body {
+    background-color: lightcyan;
+    margin: 0px;
+}
+
+div {
+    /* basic fade animation */
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+button {
+    text-align: center;
+    background-color: white;
+    padding:  20px;
+    font-size: 32px;
+    opacity: 100%;
+    cursor: pointer;
+
+    /* button border */
+    border-width: 4px;
+    border-radius: 4px;
+    border-color: white;
+    border-style: solid;
+
+    /* basic fade animation */
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+grid {
+    width: 50%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    column-gap: 10px;
+    background-color: transparent;
+    padding: 10px;
+    margin-left: 25%;
+}
+
+#ctrl-div button {
+    border-color: black;
+}
+
+#navbar {
+    background-color: lime;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+#main {
+    margin: 8px;
+}
+
+#sidebar {
+    background-color: lightskyblue;
+}
